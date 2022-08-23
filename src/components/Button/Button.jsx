@@ -10,8 +10,8 @@ function Button({ onClick }) {
   );
 }
 
-Button.porpTypes = {
-  obClick: PropTypes.func.isRequired,
+Button.propTypes = {
+  onClick: PropTypes.func.isRequired,
 };
 
 export default Button;
